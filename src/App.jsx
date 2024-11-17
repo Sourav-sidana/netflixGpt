@@ -1,13 +1,27 @@
+ import { background } from './utils/assets'
+import Header from './components/Header'
 
-import './App.css'
 
 function App() {
  
 
   return (
-    <>
-     <div className='text-red-950 border text-3xl'>yooo</div>
-    </>
+   
+    
+    
+    
+    <div className="bg-cover bg-center bg-no-repeat  h-screen" style={{ backgroundImage: `url(${background})` }}> 
+    <div className="absolute inset-0 bg-black opacity-30"></div> 
+     <div className="relative z-10 text-white"> <Header/>
+
+
+    </div>
+    
+    
+    
+    </div>
+   
+  
   )
 }
 
